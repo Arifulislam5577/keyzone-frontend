@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@import "keep-react/css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Poppins, Arial, sans-serif;
+  font-weight: 400;
+  height: 100%;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-metal-25 dark:bg-[#242424] text-metal-900 dark:text-white;
+}
+
+html,
+#root {
+  height: 100%;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
